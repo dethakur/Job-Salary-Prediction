@@ -1,0 +1,40 @@
+__author__ = 'devashishthakur'
+
+import pickle
+import numpy as np
+
+X = pickle.load(open('/Users/devashishthakur/Documents/Machine Learning/ML-Project/ML-Code/pkl-files/python-3.0/X-1000.pkl','rb'))
+Y = pickle.load(open('/Users/devashishthakur/Documents/Machine Learning/ML-Project/ML-Code/pkl-files/python-3.0/Y-1000.pkl','rb'))
+
+y_arr = Y.toarray()
+y_arr = np.power(y_arr,0.1)
+
+test_arr = np.zeros(y_arr.shape)
+mean_val = np.mean(y_arr)
+std_val = np.std(y_arr)
+
+length = test_arr.shape[0]
+dataBucketMap = {}
+for i in range(1,6):
+    dataBucketMap[i] = []
+
+for i in range(0,length):
+    if(y_arr[i] > mean_val - 0.5*std_val and y_arr[i] <mean_val + 0.5*std_val):
+        test_arr[i] = 1
+        dataBucketMap[1].append(X[i])
+    elif (y_arr[i] > mean_val - 1*std_val and y_arr[i] < mean_val + 1*std_val):
+        test_arr[i] = 2
+        dataBucketMap[2].append(X[i])
+    elif (y_arr[i] > mean_val - 2*std_val and y_arr[i] < mean_val + 2*std_val):
+        test_arr[i] = 3
+        dataBucketMap[3].append(X[i])
+    elif (y_arr[i] > mean_val - 3*std_val and y_arr[i] < mean_val + 3*std_val):
+        test_arr[i] = 4
+        dataBucketMap[4].append(X[i])
+    else:
+        test_arr[i] = 5
+        dataBucketMap[5].append(X[i])
+
+
+pickle.dump(y_arr,open("/Users/devashishthakur/Documents/Machine Learning/ML-Project/ML-Code/pkl-files/python-3.0/Y_classified-1000.pkl",'wb'))
+pickle.dump(dataBucketMap,open("/Users/devashishthakur/Documents/Machine Learning/ML-Project/ML-Code/pkl-files/python-3.0/regression_bucket.pkl-1000",'wb'))
