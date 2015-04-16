@@ -147,14 +147,14 @@ f = open('/Users/devashishthakur/Documents/Machine Learning/ML-Project/ML-Code/K
 
 import time
 
-for k in range(3,100):
-    start = time.clock()
-    print('Clustering starts')
-    clf = KMeans(n_clusters=k)
-    clf.fit(X)
-    print('Time taken for cluster = {} is = {}'.format(k,time.clock()-start))
-    print("Iteration = {} and cluster centers = {}".format(k,clf.cluster_centers_))
-    f.write("{},{}\n".format(k,clf.inertia_))
-    f.flush()
+# for k in range(3,100):
+start = time.clock()
+print('Clustering starts')
+clf = KMeans(n_clusters=k)
+clf.fit(X)
+print('Time taken for cluster = {} is = {}'.format(k,time.clock()-start))
+print("Iteration = {} and cluster centers = {}".format(k,clf.cluster_centers_))
+f.write("{},{}\n".format(k,clf.inertia_))
+f.flush()
 
 
