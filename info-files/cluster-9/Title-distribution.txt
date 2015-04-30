@@ -1,0 +1,20 @@
+9,Assistant Manager,214
+9,Recruitment Consultant,210
+9,Credit Controller,195
+9,Accounts Assistant,186
+9,Sales Executive,176
+9,Assistant Accountant,157
+9,Store Manager,126
+9,Staff Nurse,124
+9,Marketing Executive,116
+9,Account Manager,116
+9,Kitchen Manager,108
+9,Sous Chef,98
+9,Deputy Manager,88
+9,HR Administrator,82
+9,Administrator,74
+9,CNC Miller,73
+9,Assistant Management Accountant,70
+9,Payroll Administrator,69
+9,Field Sales Executive,68
+9,Business Development Manager,68

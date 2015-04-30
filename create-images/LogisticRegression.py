@@ -3,7 +3,7 @@ __author__ = 'devashishthakur'
 import matplotlib
 from matplotlib import pyplot as plt
 
-f = open('/Users/devashishthakur/Documents/Machine Learning/ML-Project/ML-Code/LogisticRegression/output-value/LR-info-2000-90%.txt')
+f = open('/Users/devashishthakur/Documents/Machine Learning/ML-Project/ML-Code/LogisticRegression/output-value/LR-info-4000-80%.txt')
 # print(f)
 # for line in f:
 #     print(line)

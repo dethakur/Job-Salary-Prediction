@@ -1,0 +1,120 @@
+gp 
+
+Cluster 0 - great pount britain , gp liaison
+cluster 1 - gp means general practitioner
+cluster 2 - gp means part of salary
+cluster 3 - gp means part of salary
+cluster 4 - gp means salary
+cluster 5 -  gp means general practitioner
+cluster 6 - gp means general practitioner
+cluster 7 - GP means salary
+cluster 8 - 
+cluster 9 - 
+
+
+locum - 
+Popular in cluster 5 and 6 ,as it means a temporary practitioner
+
+Cluster analysis - 
+
+Job Type - 
+0 and val = {'permanent': 0.8699301885192617, 'contract': 0.13006981148073826}
+1 and val = {'permanent': 0.7445458765279283, 'contract': 0.2554541234720718}
+2 and val = {'permanent': 0.8700230728273087, 'contract': 0.12997692717269124}
+3 and val = {'permanent': 0.7103563524682716, 'contract': 0.28964364753172844}
+4 and val = {'permanent': 0.8996226738701655, 'contract': 0.1003773261298345}
+5 and val = {'permanent': 0.3333333333333333, 'contract': 0.6666666666666666}
+6 and val = {'permanent': 0.5928355196770938, 'contract': 0.40716448032290614}
+7 and val = {'permanent': 0.8288451840645487, 'contract': 0.17115481593545134}
+8 and val = {'permanent': 0.8712312537024912, 'contract': 0.1287687462975088}
+9 and val = {'permanent': 0.8501392757660167, 'contract': 0.14986072423398328}
+
+Cluster 5 has 66% as contract and 33% as permanent
+Cluster 6 has 40% contract and 59% permanent
+
+Source Name - 
+
+0 and val = 155
+1 and val = 128
+2 and val = 146
+3 and val = 146
+4 and val = 151
+5 and val = 34
+6 and val = 119
+7 and val = 134
+8 and val = 153
+9 and val = 150
+
+There are only 34 unique source name which sends job opportunities in the salary range
+
+Top source Ids per cluster Id
+
+All the clusters get job requests from totaljobs.com followed by cv-library.co.uk. However the top source of job requests for cluster 5 comes from job4medical.com and legalweeks.com
+
+0 and val = [('totaljobs.com', 10019), ('cv-library.co.uk', 7656), ('jobsite.co.uk', 2210), ('Jobcentre Plus', 1868), ('jobs.guardian.co.uk', 1350)]
+1 and val = [('totaljobs.com', 1065), ('cwjobs.co.uk', 586), ('cv-library.co.uk', 567), ('jobsite.co.uk', 498), ('technojobs.co.uk', 440)]
+2 and val = [('totaljobs.com', 3600), ('cv-library.co.uk', 2030), ('jobsite.co.uk', 1415), ('cwjobs.co.uk', 1171), ('technojobs.co.uk', 872)]
+3 and val = [('Jobcentre Plus', 10397), ('totaljobs.com', 7953), ('cv-library.co.uk', 5973), ('MyUkJobs', 1507), ('fish4.co.uk', 1152)]
+4 and val = [('totaljobs.com', 5275), ('cv-library.co.uk', 3355), ('jobsite.co.uk', 1924), ('cwjobs.co.uk', 1248), ('technojobs.co.uk', 1129)]
+5 and val = [('jobs4medical.co.uk', 59), ('legalweekjobs.com', 23), ('jobs.gponline.com', 22), ('hays.co.uk', 17), ('GAAPweb', 14)]
+6 and val = [('totaljobs.com', 584), ('cwjobs.co.uk', 435), ('theladders.co.uk', 373), ('cv-library.co.uk', 340), ('jobsite.co.uk', 300)]
+7 and val = [('theladders.co.uk', 1923), ('totaljobs.com', 1814), ('cv-library.co.uk', 1110), ('cwjobs.co.uk', 865), ('jobsite.co.uk', 730)]
+8 and val = [('totaljobs.com', 7828), ('cv-library.co.uk', 5754), ('jobsite.co.uk', 2344), ('cwjobs.co.uk', 1273), ('jobs.guardian.co.uk', 1068)]
+9 and val = [('totaljobs.com', 10002), ('cv-library.co.uk', 7494), ('Jobcentre Plus', 3807), ('jobsite.co.uk', 1656), ('caterer.com', 1485)]
+
+
+Company - 
+
+EJ Legal and CES Locums are the companies that appear 
+
+0 and val = [('UKStaffsearch', 1054), ('CVbrowser', 725), ('Hays', 426), ('London4Jobs', 300), ('Perfect Placement', 250)]
+1 and val = [('UKStaffsearch', 138), ('London4Jobs', 84), ('JOBG8', 81), ('Jobsite Jobs', 73), ('Experis IT', 58)]
+2 and val = [('UKStaffsearch', 389), ('London4Jobs', 289), ('CVbrowser', 189), ('Matchtech Group plc.', 144), ('JAM Recruitment Ltd', 130)]
+3 and val = [('Office Angels', 474), ('UKStaffsearch', 470), ('CVbrowser', 319), ('Adecco', 314), ('Hays', 281)]
+4 and val = [('UKStaffsearch', 696), ('CVbrowser', 350), ('London4Jobs', 345), ('JAM Recruitment Ltd', 201), ('Matchtech Group plc.', 199)]
+5 and val = [('EJ Legal', 15), ('CES Locums', 11), ('Star Actuarial Futures', 9), ('Global Medics Locums', 6), ('JOBG8', 4)]
+6 and val = [('UKStaffsearch', 82), ('London4Jobs', 80), ('Real Staffing', 76), ('Experis IT', 58), ('SEC Recruitment Limited', 52)]
+7 and val = [('JAM Recruitment Ltd', 207), ('London4Jobs', 201), ('Real Staffing', 198), ('UKStaffsearch', 189), ('Selby Jennings', 152)]
+8 and val = [('UKStaffsearch', 1060), ('CVbrowser', 599), ('London4Jobs', 596), ('Hays', 334), ('JAM Recruitment Ltd', 291)]
+9 and val = [('UKStaffsearch', 919), ('CVbrowser', 618), ('Perfect Placement', 423), ('Hays', 351), ('Office Angels', 302)]
+
+Salary Range - 
+
+0 - 24610,31171
+1 - 68371,82875
+2 - 46713,56500
+3 - 5000,18130
+4 - 38395,46674
+5 - 120000,200000
+6  - 82920,115200
+7 - 56560,68256
+8 - 31180,38379
+9 - 18132,24604
+
+Top Titles - 
+
+0 and val = [('Business Development Manager', 0.003955901426718547), ('Account Manager', 0.003934284479031561), ('Management Accountant', 0.0038910505836575876), ('Sales Executive', 0.0033722438391699094), ('Quality Engineer', 0.0030263726761781237), ('Mechanical Design Engineer', 0.002680501513186338), ('Maintenance Engineer', 0.002615650670125378), ('Recruitment Consultant', 0.0025940337224383916), ('Sales Manager', 0.0025507998270644185), ('HR Advisor', 0.0021833117163856464)]
+-----
+1 and val = [('Financial Controller', 0.004419027813880946), ('Business Development Manager', 0.004159085001299714), ('Senior Project Manager', 0.0032492851572654014), ('Finance Director', 0.002729399532102937), ('Project Manager', 0.0025994281258123215), ('Business Analyst', 0.002209513906940473), ('Principal Consultant', 0.002209513906940473), ('Sales Manager', 0.001949571094359241), ('Solutions Architect', 0.0016896282817780088), ('Site Agent', 0.0015596568754873928)]
+-----
+2 and val = [('Project Manager', 0.007236032488309131), ('Business Development Manager', 0.005463942899335467), ('Finance Manager', 0.005217819345311347), ('Financial Controller', 0.00477479694806793), ('Senior Quantity Surveyor', 0.0034949544671425054), ('HR Manager', 0.0034949544671425054), ('HR Business Partner', 0.0033472803347280333), ('Engineering Manager', 0.003150381491508737), ('Management Accountant', 0.0026089096726556733), ('Senior Estimator', 0.002559684961850849)]
+-----
+3 and val = [('Cleaner', 0.010884761334132215), ('Administrator', 0.008737767126023567), ('Support Worker', 0.006291192330736968), ('Accounts Assistant', 0.005417415618134611), ('Credit Controller', 0.004893149590573197), ('Purchase Ledger Clerk', 0.004693429199121231), ('Customer Service Advisor', 0.004568603954463751), ('Receptionist', 0.004468743758737767), ('Labourer', 0.0043439185140802875), ('Teaching Assistant', 0.003944477731176353)]
+-----
+4 and val = [('Project Manager', 0.007788053681941451), ('Business Development Manager', 0.006397329810166191), ('Finance Manager', 0.004624156873652736), ('Management Accountant', 0.003754954453793199), ('Business Analyst', 0.0032334330018774773), ('Financial Accountant', 0.002920520130728044), ('Quantity Surveyor', 0.002781447743550518), ('Mechanical Design Engineer', 0.002711911549961755), ('Financial Controller', 0.0026771434531673737), ('HR Manager', 0.0025380710659898475)]
+-----
+5 and val = [('Doctor : GP Locum in Somerset  Short Term Locum', 0.03347280334728033), ('Doctor : GP Locum in Hampshire  Short Term Locum', 0.02510460251046025), ('Doctor : GP Locum in Central London  Short Term Locum', 0.02510460251046025), ('Locum OOH GP – Cornwall', 0.012552301255230125), ('Doctor : GP Locum in Buckinghamshire  Short Term Locum', 0.012552301255230125), ('Locum GP – Hertfordshire', 0.012552301255230125), ('Doctor : GP Locum in Hertfordshire  Short Term Locum', 0.012552301255230125), ('Doctor : GP Locum in Dorset  Weekend Shifts', 0.012552301255230125), ('Doctor : GP Locum in South London  Short Term Locum', 0.012552301255230125), ('OOH Locum GP – Kent', 0.012552301255230125)]
+-----
+6 and val = [('Project Manager', 0.005973025048169557), ('Business Analyst', 0.004624277456647399), ('Finance Director', 0.0038535645472061657), ('Financial / Mortgage Advisor (OTE Up To ****K)', 0.0032755298651252407), ('Sales Director', 0.0025048169556840076), ('Head of Finance', 0.0025048169556840076), ('Business Development Manager', 0.0025048169556840076), ('Group Financial Controller', 0.0025048169556840076), ('Java Developer', 0.0015414258188824663), ('Process Engineer', 0.0015414258188824663)]
+-----
+7 and val = [('Financial Controller', 0.007320431977966224), ('Business Development Manager', 0.005870841487279843), ('Project Manager', 0.004493730521127781), ('Finance Manager', 0.003913894324853229), ('Commercial Finance Manager', 0.0025367833587011668), ('Mechanical Design Engineer', 0.0021019062114952525), ('Business Analyst', 0.0021019062114952525), ('Senior Project Manager', 0.0020294266869609334), ('Programme Manager', 0.0018119881133579763), ('Head of Marketing', 0.0017395085888236572)]
+-----
+8 and val = [('Management Accountant', 0.006640207601892841), ('Business Development Manager', 0.006105938024729049), ('Mechanical Design Engineer', 0.004325039434183077), ('Project Manager', 0.004197832392001221), ('Quality Engineer', 0.0029257619701826693), ('Account Manager', 0.0028494377448735563), ('Project Engineer', 0.002747672111128072), ('Finance Manager', 0.00269678929425533), ('Quantity Surveyor', 0.0025186994352007328), ('Marketing Manager', 0.00244237520989162)]
+-----
+9 and val = [('Assistant Manager', 0.004959673681283026), ('Recruitment Consultant', 0.004866969500324465), ('Credit Controller', 0.00451932882172986), ('Accounts Assistant', 0.004310744414573097), ('Sales Executive', 0.004078983962176694), ('Assistant Accountant', 0.0036386391026235285), ('Store Manager', 0.0029201817001946787), ('Staff Nurse', 0.002873829609715398), ('Marketing Executive', 0.0026884212477982757), ('Account Manager', 0.0026884212477982757)]
+
+
+
+
+
+

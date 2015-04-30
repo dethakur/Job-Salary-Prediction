@@ -1,0 +1,20 @@
+3,Cleaner,436
+3,Administrator,350
+3,Support Worker,252
+3,Accounts Assistant,217
+3,Credit Controller,196
+3,Purchase Ledger Clerk,188
+3,Customer Service Advisor,183
+3,Receptionist,179
+3,Labourer,174
+3,Teaching Assistant,158
+3,Cleaning Operative,150
+3,Sales Executive,147
+3,Assistant Manager,147
+3,Chef de Partie,145
+3,Nursery Nurse,138
+3,Sales Administrator,128
+3,Telesales Executive,122
+3,Care Assistant,110
+3,Warehouse Operative,109
+3,Support Workers,97
